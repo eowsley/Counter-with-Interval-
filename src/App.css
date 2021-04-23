@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.counter-component {
+  margin: 15px;
+
+}
+button {
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 0 15px;
+  height: 40px;
+  margin: 15px 8px 0 8px;
+  border-radius: 8px;
+ 
+}
+
+button:hover {
+  background-color: rgb(235, 107, 107);
+  color: white;
+}
+
+button:first-of-type:hover {
+  background-color: rgb(15, 196, 15);
+  }
